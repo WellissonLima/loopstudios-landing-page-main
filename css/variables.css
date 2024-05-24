@@ -1,0 +1,6 @@
+:root{
+    --primary-white: hsl(0, 0%, 100%);
+    --primary-black: hsl(0, 0%, 0%);
+    --primary-dark-gray: hsl(0, 0%, 55%);
+    --primary-very-dark-gray: hsl(0, 0%, 41%);
+}
