@@ -18,12 +18,14 @@ body {
 
 .header {
     grid-area: header;
-    background-color: #000000;
+    /* background-color: #000000; */
+    position: relative;
+    z-index: 1;
 }
 
 .header .header-container {
     display: flex;
-    padding: 40px 80px;
+    padding: 4rem 12rem;
     justify-content: space-between;
     align-items: center;
     min-height: 100px;
@@ -31,7 +33,28 @@ body {
 
 .hero {
     grid-area: hero;
-    background-color: #fff000;
+    height: 98vh;
+    background: url('../images/desktop/image-hero.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 10rem 12rem;
+    position: relative;
+    margin-top: -11.7rem;
+}
+
+.hero .slogan {
+    width: 60rem;
+    border: 2px solid #fff;
+    padding: 4rem;
+}
+
+.hero .slogan h1 {
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 7rem;
 }
 
 .about {
