@@ -59,12 +59,44 @@ body {
 
 .about {
     grid-area: about;
-    background-color: #00ffff;
+    height: 98vh;
+    position: relative;
+    padding: 10rem 12rem;
+}
+
+.about .image-vr{
+    background: url('../images/desktop/image-interactive.jpg') center center no-repeat;
+    background-size: contain;
+    width: 700px;
+    height: 500px;
+}
+
+.about .item {
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 23rem;
+    padding: 8rem;
+    background-color: #fff;
+}
+
+.about .item h2 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.about .item p {
+    font-family: "Alata", sans-serif;
+    color: var(--primary-very-dark-gray);
 }
 
 .creations {
     grid-area: creations;
-    background-color: #ff00ff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr, 1fr;
 }
 
 .footer {
