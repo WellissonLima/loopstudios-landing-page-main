@@ -24,18 +24,7 @@
   <link rel="stylesheet" href="./src/css/variables.css">
   <link rel="stylesheet" href="./src/css/style.css">
   <link rel="stylesheet" href="./src/css/menu.css">
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <link rel="stylesheet" href="./src/css/responsove.css">
 </head>
 
 <body>
@@ -75,7 +64,9 @@
   </section>
 
   <section class="about" id="about">
-    <div class="image-vr"></div>
+    <div class="image-vr">
+      <img src="./src/images/desktop/image-interactive.jpg" alt="VR">
+    </div>
     <div class="item">
       <h2>The leader in interactive VR</h2>
       <p>
@@ -89,7 +80,7 @@
   <section class="creations" id="creations">
     <div class="header-creations">
       <h2>Our creations</h2>
-      <a href="#">
+      <a href="#" class="see-all-1">
         See all
       </a>
     </div>
@@ -151,14 +142,23 @@
         </a>
       </div>
     </div>
+    <div class="btn-2">
+      <a href="#" class="see-all-2">
+      See all
+      </a>
+    </div>
   </section>
 
   <footer class="footer">
     <div class="footer-container">
 
       <div class="menu-footer">
-        <div class="logo"><a href="#"><img src="./src/images/logo.svg" alt="logo"></a></div>
-  
+        <div class="logo">
+          <a href="#">
+            <img src="./src/images/logo.svg" alt="logo">
+          </a>
+        </div>
+
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#careers">Careers</a></li>
@@ -167,7 +167,7 @@
           <li><a href="#support">Support</a></li>
         </ul>
       </div>
-  
+
       <div class="footer-right">
         <div class="social">
           <a href="#"><img src="./src/images/icon-facebook.svg" alt="Facebook"></a>
@@ -175,7 +175,7 @@
           <a href="#"><img src="./src/images/icon-pinterest.svg" alt="Pinterest"></a>
           <a href="#"><img src="./src/images/icon-instagram.svg" alt=""></a>
         </div>
-  
+
         <div class="all-rights">
           <p>© 2021 Loopstudios. All rights reserved.</p>
         </div>
@@ -184,7 +184,7 @@
 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor </a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/WellissonLima">Wellisson Lima</a>.
     </div>
   </footer>
 

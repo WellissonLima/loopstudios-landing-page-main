@@ -1,0 +1,184 @@
+@media(max-width: 1080px){
+    .header .header-container {
+        padding: 4rem 9rem;
+    }
+
+    .hero {
+        padding: 7rem 9rem;
+    }
+
+    .about {
+        padding: 7rem 9rem;
+    }
+
+    .about .image-vr {
+        width: 560px;
+        height: 400px;
+    }
+
+    .about .item {
+        padding: 6.4rem 0 0 6.4rem;
+        right: 10%;
+        bottom: 5%;
+        max-width: 450px;
+        height: auto;
+    }
+
+    .about .item h2 {
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .creations {
+        padding: 7rem 9rem;
+    }
+}
+
+@media(max-width: 768px){
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        height: auto;
+    }
+
+    .about .item{
+        position: relative;
+        text-align: center;
+        padding: 3rem 0 0 0;
+        right: 0;
+    }
+
+    .about .item p {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+
+    .creations .creation-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer {
+        padding: 3rem 9rem .5rem;
+    }
+
+    .footer .footer-container {
+        height: auto;
+    }
+
+    .footer .footer-container .menu-footer ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer .footer-container .footer-right .social {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 425px){
+    .header .header-container {
+        padding: 1rem 4rem;
+    }
+    
+    .hero {
+        background: url('../images/mobile/image-hero.jpg') center center no-repeat;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 4rem;
+    }
+
+    .hero .slogan {
+        max-width: 375px;
+    }
+
+    .hero .slogan h1 {
+        font-size: 4rem;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 4rem;
+    }
+
+    .about .image-vr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .image-vr img {
+        width: 375px;
+        height: auto;
+    }
+
+    .about .item h2 {
+        font-size: 3.6rem;
+    }
+
+    .about .item p {
+        font-size: 1.8rem;
+    }
+    
+    .creations {
+        padding: 1rem 4rem;
+    }
+
+    .creations .header-creations h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .creations .header-creations .see-all-1 {
+        display: none;
+    }
+
+    .creations .btn-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .creations .btn-2 .see-all-2 {
+        color: #000000;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        font-family: "Alata", sans-serif;
+        padding: 10px 40px;
+        border: 2px solid #000000;
+        transition: 0.3s ease-in-out;
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+    .creations .creation-container {
+        grid-template-columns: 1fr;
+    }
+
+    .creations .creation-container .creation .desktop {
+        display: none;
+    }
+
+    .creations .creation-container .creation .mobile {
+        display: block;
+    }
+
+    .footer {
+        padding: 3rem;
+    }
+
+    .footer .footer-container {
+        flex-direction: column;
+        gap: 4rem;
+    }
+}
